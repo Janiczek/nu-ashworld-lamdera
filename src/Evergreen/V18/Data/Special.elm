@@ -1,7 +1,6 @@
-module Evergreen.V17.Data.Special exposing (..)
+module Evergreen.V18.Data.Special exposing (..)
 
-
-type alias Special =
+type alias Special = 
     { strength : Int
     , perception : Int
     , endurance : Int
@@ -20,8 +19,3 @@ type SpecialType
     | Intelligence
     | Agility
     | Luck
-
-
-init : Special
-init =
-    Special 5 5 5 5 5 5 5
